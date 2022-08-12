@@ -77,6 +77,112 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-高数" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/08/11/%E9%AB%98%E6%95%B0/" class="article-date">
+  <time class="dt-published" datetime="2022-08-11T06:39:01.834Z" itemprop="datePublished">2022-08-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>[toc]</p>
+<h1 id="大纲总览"><a href="#大纲总览" class="headerlink" title="大纲总览"></a>大纲总览</h1><p><img src="/Users/fourier/%E6%9A%91%E5%81%87/%E9%AB%98%E6%95%B0/%E9%9B%86%E8%AE%AD%E8%90%A5%E6%95%B0%E5%AD%A6/%E5%9B%BE/%E5%A4%A7%E7%BA%B2.jpg"></p>
+<h1 id="未定式极限"><a href="#未定式极限" class="headerlink" title="未定式极限"></a>未定式极限</h1><h2 id="做题步骤"><a href="#做题步骤" class="headerlink" title="做题步骤"></a>做题步骤</h2><h3 id="一、定型"><a href="#一、定型" class="headerlink" title="一、定型"></a>一、定型</h3><h4 id="基本型"><a href="#基本型" class="headerlink" title="基本型"></a>基本型</h4><p>$$<br>\frac{0}{0}型,\frac{\infin}{\infin}型,0\cdot{\infin}型,1^{\infin}型,\infin - \infin 型,1^\infin型,\infin^0型,0^0型<br>$$</p>
+<h3 id="二、化简"><a href="#二、化简" class="headerlink" title="二、化简"></a>二、化简</h3><h4 id="1-何时“代入“与”拆开“"><a href="#1-何时“代入“与”拆开“" class="headerlink" title="1. 何时“代入“与”拆开“"></a>1. 何时“代入“与”拆开“</h4><ol>
+<li><p>乘除位置，可带入极限不为0且不为∞的因式</p>
+<p>eg.<br>$$<br>\frac{A(B-CD)}{EF} (A-E为函数)\<br>lim\begin{cases}<br>A&#x3D;2\B&#x3D;C&#x3D;D&#x3D;1\E&#x3D;0\F&#x3D;3<br>\end{cases}\<br>此时仅A和F可代入<br>$$</p>
+</li>
+<li><p>加减位置，某部分极限存在时可拆开计算</p>
+<p>eg.<br>$$<br>lim\frac{f(x)+g(x)+h(x)}{\varphi(x)}<br>\其中 ;lim\frac{f(x)}{\varphi(x)}&#x3D;5\原式&#x3D;lim\frac{f(x)}{\varphi(x)}+lim\frac{g(x)+h(x)}{\varphi{x}}&#x3D;5+lim\frac{g(x)+h(x)}{\varphi{x}}<br>$$</p>
+</li>
+</ol>
+<h5 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h5><p>例10</p>
+<h4 id="2-根号差"><a href="#2-根号差" class="headerlink" title="2.根号差"></a>2.根号差</h4><h5 id="1-平方型"><a href="#1-平方型" class="headerlink" title="1.平方型"></a>1.平方型</h5><p>$$<br>1.\sqrt{f(x)}-\sqrt{g(x)}&#x3D;\frac{f(x)-g(x)}{\sqrt{f(x)}+\sqrt{g(x)}} \qquad上下同乘\left(  {\sqrt{f(x)}+\sqrt{g(x)}}  \right)\<br>$$</p>
+<h6 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h6><p>例1.11</p>
+<h5 id="2-n次根"><a href="#2-n次根" class="headerlink" title="2. n次根"></a>2. n次根</h5><p>$$<br>条件：limf(x)&#x3D;lim g(x)&#x3D;A\neq0\<br>\sqrt[n]{f(x)}-\sqrt[n]{g(x)}&#x3D;\sqrt[n]{g(x)} \cdot \left[\sqrt[n]{\frac{f(x)}{g(x)}-1}\right]  ～;\sqrt[n]{A} \left[ \frac{1}{n} \left( \frac {f(x)}{g(x)}-1 \right)\right]<br>\<br>此处用到的等价无穷小：\alpha \rightarrow0,;\sqrt[n]{\alpha}-1 ～ \frac{1}{n}(\alpha-1)<br>$$</p>
+<h6 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h6><p>例1.12</p>
+<h4 id="3-指数差"><a href="#3-指数差" class="headerlink" title="3.指数差"></a>3.指数差</h4><p>$$<br>条件：lim f(x) &#x3D;lim g(x) &#x3D;A \<br>e^{f(x)}-e^{g(x)}&#x3D;e^{g(x)} \left[ e^{f(x)-g(x)}-1\right] ～, e^A\left[ f(x)-g(x)\right]<br>$$</p>
+<h4 id="4-幂指函数"><a href="#4-幂指函数" class="headerlink" title="4.幂指函数"></a>4.幂指函数</h4><p>$$<br>f(x)^{g(x)}&#x3D;e^{g(x)lnf(x)}<br>$$</p>
+<h4 id="5-变限积分函数-常用洛必达"><a href="#5-变限积分函数-常用洛必达" class="headerlink" title="5.变限积分函数[常用洛必达]"></a>5.变限积分函数[常用洛必达]</h4><h5 id="1-标准模型"><a href="#1-标准模型" class="headerlink" title="1.标准模型"></a>1.标准模型</h5><p>$$<br>\left[ \int_{\varphi(x)}^{g(x)} f(t)dt\right]^<code>=f\left[ g(x)\right]·g^</code>(x)-f(\varphi(x))·\varphi^&#96;(x)<br>$$</p>
+<h5 id="2-混合模型"><a href="#2-混合模型" class="headerlink" title="2.混合模型"></a>2.混合模型</h5><p>$$<br>\left[ \int_{\varphi(x)}^{g(x)} f(x,t)dt\right]^&#96;\ \<br>(混合模型\rightarrow 标准模型)<br>\begin{cases}</p>
+<ol>
+<li>拆项分离\<br>2.换元分离<br>\end{cases}<br>$$</li>
+</ol>
+<h5 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h5><p>例1.13</p>
+<h4 id="6-拉格朗日中值定理"><a href="#6-拉格朗日中值定理" class="headerlink" title="6.拉格朗日中值定理"></a>6.拉格朗日中值定理</h4><h5 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h5><p>函数值之差或不同函数值出现</p>
+<h5 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h5><p>$$<br>sin\ f(x)-sin\ g(x) &#x3D;cos\xi·\left[ f(x)-g(x)\right]<br>$$</p>
+<h5 id="例题-4"><a href="#例题-4" class="headerlink" title="例题"></a>例题</h5><p>$$<br>x \rightarrow 0 \qquad sin(tanx)-sin(sinx)\<br>原式&#x3D;cos\xi·(tanx-sinx)\qquad<br>\xi介于tanx与sinx之间\<br>所以;\xi \rightarrow0,cos\xi \rightarrow1\<br>原式&#x3D;\frac{1}{2}x^3<br>$$</p>
+<p>例1.15</p>
+<h3 id="三、计算"><a href="#三、计算" class="headerlink" title="三、计算"></a>三、计算</h3><h4 id="常用公式"><a href="#常用公式" class="headerlink" title="常用公式"></a>常用公式</h4><p>$$<br>常用公式\begin{cases}<br>1.等价无穷小[乘除位置]\<br>2.泰勒公式[加减位置]\<br>3.洛必达法则<br>\end{cases}<br>$$</p>
+<h4 id="泰勒公式展开原则及四模型"><a href="#泰勒公式展开原则及四模型" class="headerlink" title="泰勒公式展开原则及四模型"></a>泰勒公式展开原则及四模型</h4><h5 id="泰勒公式展开原则"><a href="#泰勒公式展开原则" class="headerlink" title="泰勒公式展开原则"></a>泰勒公式展开原则</h5><p>$$<br>上下同阶\begin{cases}<br>1.消低阶\<br>2.略高阶\<br>3.全同阶<br>\end{cases}<br>$$</p>
+<h5 id="四模型"><a href="#四模型" class="headerlink" title="四模型"></a>四模型</h5><h6 id="1-A-B-CD-x2F-EF-型、例题"><a href="#1-A-B-CD-x2F-EF-型、例题" class="headerlink" title="1. A(B-CD)&#x2F;EF 型、例题"></a>1. A(B-CD)&#x2F;EF 型、例题</h6><p>$$<br>\frac{A(B-CD)}{EF}<br>\quad (A～F全是无穷小量)<br>$$</p>
+<p>例题</p>
+<p>例1.7</p>
+<h6 id="2-A·B型、例题"><a href="#2-A·B型、例题" class="headerlink" title="2. A·B型、例题"></a>2. A·B型、例题</h6><p>$$<br>A·B型<br>\begin{cases}<br>1.A的首项决定B的阶数\<br>2.B的首项决定A的阶数<br>\end{cases}<br>$$</p>
+<p>例题</p>
+<p>例<br>$$<br>sin^2x展开到4阶\<br>sin^2x&#x3D;sinx·sinx&#x3D;(x-\frac{1}{6}x^3+\omicron(x^3))^2<br>\总共展开到4阶，第一个sinx展开的第一项为x（一阶），所以第二项sinx需要展开到3阶，同理第一项也要展开到3阶<br>$$</p>
+<h6 id="3-A-B型、例题"><a href="#3-A-B型、例题" class="headerlink" title="3. A-B型、例题"></a>3. A-B型、例题</h6><p>$$<br>A-B型&#x2F;\frac{A-B}{C-D}型：展到前后不可抵消的最低次幂<br>$$</p>
+<p>例题</p>
+<p>例1.8</p>
+<h6 id="4-复合模型、例题"><a href="#4-复合模型、例题" class="headerlink" title="4. 复合模型、例题"></a>4. 复合模型、例题</h6><p>$$<br>原则：展多次<br>$$</p>
+<p>例题</p>
+<p>例1.9</p>
+<h1 id="无穷小及其阶"><a href="#无穷小及其阶" class="headerlink" title="无穷小及其阶"></a>无穷小及其阶</h1><h2 id="1-无穷小量乘幂函数"><a href="#1-无穷小量乘幂函数" class="headerlink" title="1. 无穷小量乘幂函数"></a>1. 无穷小量乘幂函数</h2><p>$$<br>x^n·\omicron(x^m) &#x3D; \omicron(x^{m+n})<br>$$</p>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><h2 id="2-无穷小量乘无穷小量"><a href="#2-无穷小量乘无穷小量" class="headerlink" title="2.无穷小量乘无穷小量"></a>2.无穷小量乘无穷小量</h2><p>$$<br>\omicron(x^n)·\omicron(x^m)&#x3D;\omicron(x^{m+n})<br>$$</p>
+<h3 id="证明-1"><a href="#证明-1" class="headerlink" title="证明"></a>证明</h3><h2 id="3-无穷小量-无穷小量"><a href="#3-无穷小量-无穷小量" class="headerlink" title="3.无穷小量+无穷小量"></a>3.无穷小量+无穷小量</h2><p>$$<br>m&gt;n \quad \omicron(x^n)+\omicron(x^m)&#x3D;\omicron(x^n)\无穷小量，和取低阶<br>\ \omicron(x^n)+\omicron(x^n)&#x3D;\omicron(x^n)<br>$$</p>
+<h3 id="证明-2"><a href="#证明-2" class="headerlink" title="证明"></a>证明</h3><h1 id="变限积分"><a href="#变限积分" class="headerlink" title="变限积分"></a>变限积分</h1><h2 id="变限积分中的等价无穷小"><a href="#变限积分中的等价无穷小" class="headerlink" title="变限积分中的等价无穷小"></a>变限积分中的等价无穷小</h2><p>$$<br>(1) \quad x\rightarrow 0,;若f_1(x)～f_2(x),;g_1(x)～g_2(x)\<br>则; \int_0^{f_1(x)}g_1(t)dt～\int_0^{f_2(x)}g_2(t)dt\</p>
+<p>\</p>
+<p>(2) \quad x\rightarrow 0,;若f_1(x)～f_2(x),lim;g(x)&#x3D;A\neq0 \<br>则; \int_0^{f_1(x)}g(t)dt～\int_0^{f_2(x)}Adt&#x3D;Af_2(x) \<br>$$</p>
+<h3 id="例"><a href="#例" class="headerlink" title="例"></a>例</h3><p>例1.27</p>
+<h2 id="变限积分中的阶数"><a href="#变限积分中的阶数" class="headerlink" title="变限积分中的阶数"></a>变限积分中的阶数</h2><p>$$<br>x\rightarrow 0,\quad 若f(x)为m阶无穷小量，g(x)为n阶无穷小量\<br>则\quad \int_0^{f(x)}g(t)dt;为;m(n+1);阶无穷小量<br>$$</p>
+<p>其中，g(x)积分后+1阶，f(x)乘进去即为m(n+1)阶</p>
+<h3 id="例-1"><a href="#例-1" class="headerlink" title="例"></a>例</h3><p>例1.27</p>
+<p>例1.29</p>
+<h1 id="单调有界准则求极限"><a href="#单调有界准则求极限" class="headerlink" title="单调有界准则求极限"></a>单调有界准则求极限</h1><h2 id="1-定理"><a href="#1-定理" class="headerlink" title="1.定理"></a>1.定理</h2><p>$$<br>{x_n}单调且有界，则{x_n}收敛\<br>注：单调且有界准则是充分条件<br>$$</p>
+<h2 id="2-特征"><a href="#2-特征" class="headerlink" title="2. 特征"></a>2. 特征</h2><p>$$<br>\begin{cases}<br>1.结论；证{x_n}收敛或{x_n}极限存在\<br>2.条件： \qquad \quad 1.x_{n+1}&#x3D;f(x_n)	\quad 	前后项关系\<br>\qquad \qquad \qquad ; 2.x_n&#x3D;f(n)	\ \qquad通项<br>\end{cases}<br>$$</p>
+<h2 id="3-分析（猜）"><a href="#3-分析（猜）" class="headerlink" title="3.分析（猜）"></a>3.分析（猜）</h2><p>$$<br>(1)单调性：写出前几项\<br>(2)有界性：求出极限值<br>$$</p>
+<h2 id="4-证明"><a href="#4-证明" class="headerlink" title="4.证明"></a>4.证明</h2><h3 id="1-单调性"><a href="#1-单调性" class="headerlink" title="(1)单调性"></a>(1)单调性</h3><h4 id="1-做差法"><a href="#1-做差法" class="headerlink" title="1.做差法"></a>1.做差法</h4><p>$$<br>x_{n+1}-x_n与; 0; 的关系\<br>$$</p>
+<h4 id="2-做商法"><a href="#2-做商法" class="headerlink" title="2.做商法"></a>2.做商法</h4><p>$$<br>\frac {x_{n+1}}{x_n}与; 1; 的关系		\<br>\begin{cases}<br>1.\frac {x_{n+1}}{x_n}&gt;1且; x_n&gt;0 \Rightarrow {x_n}单调递增 \<br>2.\frac {x_{n+1}}{x_n}&gt;1且; x_n&lt;0 \Rightarrow {x_n}单调递减\<br>\end{cases}<br>$$</p>
+<h4 id="3-求导法（补充）"><a href="#3-求导法（补充）" class="headerlink" title="3.求导法（补充）"></a>3.求导法（补充）</h4><p>$$<br>\begin{cases}<br>1.x_n&#x3D;f(x),f^<code>(x)\geq0 \Rightarrow\&#123;x_n\&#125;\\ 2.x_&#123;n+1&#125;=f(x_n),f^</code>(x)\geq0 \Rightarrow{x_n}单调<br>\end{cases}<br>$$</p>
+<p>$$<br>f^<code>(x)\geq0 \Rightarrow 自变量与因变量同向变化\\ f^</code>(x)\leq0 \Rightarrow 自变量与因变量反向变化\<br>$$</p>
+<h3 id="2-有界性：a-lt-Xn-lt-b"><a href="#2-有界性：a-lt-Xn-lt-b" class="headerlink" title="(2)有界性：a&lt;Xn&lt;b"></a>(2)有界性：a&lt;Xn&lt;b</h3><h4 id="1-函数的定义域与值域"><a href="#1-函数的定义域与值域" class="headerlink" title="1. 函数的定义域与值域"></a>1. 函数的定义域与值域</h4><p>$$<br>i.\qquad \qquad y&#x3D;\sqrt{x}\quad(x\geq0,y\geq0)\<br>eg.\x_{(n+1)}&#x3D;;{3-x_3}\Rightarrow 0\leq x_n \leq 3<br>$$</p>
+<p>$$<br>ii.\qquad \qquad y&#x3D;x^2 \qquad (y\geq0) \<br>eg.\<br>x_{(n+1)}&#x3D;x_n^2+2x_n+3&#x3D;(x_n+1)^2+2\geq2\<br>$$</p>
+<p>$$<br>iii.\qquad \qquad y&#x3D;x^2 \qquad (y&gt;0) \<br>eg.\<br>x_(n+1)&#x3D;e^{(x_n^2)} \Rightarrow x_n&gt;0<br>$$</p>
+<p>$$<br>iv.\qquad \qquad y&#x3D;\ln x \qquad (x&gt;0)\<br>eg.\<br>\ln x_n+\frac{1}{x_{n+1}}&lt;1 \quad \Rightarrow0&lt;x_n&lt;e\<br>$$</p>
+<p>$$<br>v. \qquad \qquad \begin{cases}<br>1.y&#x3D;\sin x \quad(|y| \leq1)\<br>2.y&#x3D;\cos x \quad(|y| \leq1)</p>
+<p>\end{cases}<br>\<br>eg.\<br>x_{x+1}&#x3D;\sin x_n \Rightarrow ; -1\leq x_n \leq1<br>$$</p>
+<p>$$<br>vi. \qquad \qquad y&#x3D;\arcsin x\Rightarrow (|y|\leq \frac{\pi}{2})\<br>\qquad \qquad ;;;;y&#x3D;\arctan x\Rightarrow(|y|\leq \frac{\pi}{2})\<br>$$</p>
+<h4 id="2-常见的不等关系"><a href="#2-常见的不等关系" class="headerlink" title="2.常见的不等关系"></a>2.常见的不等关系</h4><p>$$<br>i.\qquad \qquad\qquad\qquad \begin{cases}<br>x&gt;0;,,x&gt;\sin x \<br>x&lt;0;,,x,\sin x<br>\end{cases}<br>\<br>ii.\qquad  0&lt;x&lt; \frac{\pi}{2},\quad \tan x &gt;x &gt;\sin x<br>\<br>iii.\qquad x\in R , e^x-1\geq x \Leftrightarrow 1+x \leq e^x<br>\<br>iv. \qquad x&gt;0;,e^x-1&gt;x&gt;\ln(1+x)<br>\<br>v.\quad 0&lt;x&lt;1 ,\ \arcsin x&gt;x&gt;\arctan x<br>\<br>vi.\qquad a^2+b^2 \ge 2ab \Leftrightarrow ab \le \frac{a^2+ b^2}{2}\<br>a+b \ge 2\sqrt{ab} \Leftrightarrow \sqrt{ab} \le \frac{a+ b}{2}\<br>eg.\<br>x_{n+1}&#x3D;x_n+ \frac{1}{x_n} \ge2\sqrt{x_n·\frac{1}{x_n}}&#x3D;2\<br>x_{n+1}&#x3D;\sqrt{x_n·(1-x_n)}&#x3D;\frac{1}{2}<br>\<br>vii.\qquad \qquad\qquad\qquad a^2+b^2 \ge \frac{(a+b)^2}{2}<br>\<br>eg.\<br>x_{n+1}&#x3D;x_n^2 +(2-x_n)^2 \ge \frac{[x_n+(2-x_n)]}{2}&#x3D;2<br>$$</p>
+<h4 id="3-数学归纳法"><a href="#3-数学归纳法" class="headerlink" title="3.数学归纳法"></a>3.数学归纳法</h4><p>$$<br>\begin{cases}<br>i.验证n&#x3D;1时结论成立\<br>ii.假设n&#x3D;k时结论成立\<br>iii.验证n&#x3D;k+1时结论成立\<br>\end{cases} \Rightarrow 结论成立<br>$$</p>
+<p>使用前提；分析出正确结论</p>
+<h4 id="4-根据题干条件or第一问"><a href="#4-根据题干条件or第一问" class="headerlink" title="4.根据题干条件or第一问"></a>4.根据题干条件or第一问</h4><h5 id="例题-5"><a href="#例题-5" class="headerlink" title="例题"></a>例题</h5><p>例1.40</p>
+<h4 id="5-函数值与积分值"><a href="#5-函数值与积分值" class="headerlink" title="5.函数值与积分值"></a>5.函数值与积分值</h4><p>$$<br>函数值与积分值\begin{cases}<br>1.积分值\Rightarrow 函数值\quad 积分中值定理\<br>2.函数值\Rightarrow 积分值\quad<br>\end{cases}<br>$$</p>
+<h4 id="1-积分中值定理"><a href="#1-积分中值定理" class="headerlink" title="1.积分中值定理"></a>1.积分中值定理</h4><p>$$<br>f(x)在[a,b]连续，则\int_a^bf(x)dx&#x3D;f(\xi)(b-a) \\xi \in[a,b]<br>$$</p>
+<h4 id="2-函数值—积分值"><a href="#2-函数值—积分值" class="headerlink" title="2.函数值—积分值"></a>2.函数值—积分值</h4><p>$$<br>f(x)&#x3D;\frac{\int_a^bf(x)dx}{b-a}<br>$$</p>
+<h5 id="例题-6"><a href="#例题-6" class="headerlink" title="例题"></a>例题</h5><p>例1.46</p>
+<h4 id="倒数值与积分值"><a href="#倒数值与积分值" class="headerlink" title="倒数值与积分值"></a>倒数值与积分值</h4><p>$$<br>\begin{cases}<br>1.导数值\Rightarrow 函数值\<br>2.函数值\Rightarrow 	导数值 \quad 牛顿莱布尼茨方程<br>\end{cases}<br>$$</p>
+<h5 id="1-函数值—-导数值"><a href="#1-函数值—-导数值" class="headerlink" title="1.函数值—-导数值"></a>1.函数值—-导数值</h5><p>$$<br>f(b)-f(a)&#x3D;f^&#96;(\xi)(b-a)<br>$$</p>
+<h5 id="2-导数值—-函数值（牛顿莱布尼茨方程）"><a href="#2-导数值—-函数值（牛顿莱布尼茨方程）" class="headerlink" title="2.导数值—-函数值（牛顿莱布尼茨方程）"></a>2.导数值—-函数值（牛顿莱布尼茨方程）</h5><p>$$<br>\int_a^bf^&#96;(x)&#x3D;f(b)-f(a)<br>$$</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="hhttps://7-blockhouse.github.io/2022/08/11/高数/" data-id="cl6q96d3d0000g5z9cg2f2wqk" data-title="" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-英语翻译-1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/07/31/%E8%8B%B1%E8%AF%AD%E7%BF%BB%E8%AF%91-1/" class="article-date">
@@ -99,104 +205,351 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="英语翻译"><a href="#英语翻译" class="headerlink" title="英语翻译"></a>英语翻译</h1><p> 考研翻译 英语2</p>
-<p>$$<br>英汉差异\left{\begin{matrix}<br>1.英语多被动，汉语多主动。\（ 非必要情况下不要翻译为被动，除非类似于“被雨淋了” ）\ \<br>2.英语多静态，汉语多动态。 \ \<br>3.英语多长句，汉语多短句。\ \<br>4.英语前重心，汉语后重心。(汉语先铺垫，英语先结果)<br> \end{matrix}\right.<br>$$</p>
-<h2 id="一-简单句"><a href="#一-简单句" class="headerlink" title="一. 简单句"></a>一. 简单句</h2><h3 id="方法论核心"><a href="#方法论核心" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br>方法论核心<br>\begin{cases}<br>1 .翻译时中文要说全（将英文中省略的部分翻译出来）\<br>2 .英文中小事物可能会代表大范围 \<br>   Dot-com[.com]–代表互联网interne \<br>    Airlines–代表航空业\<br>3 . 重心偏移：中文的重点放在后方\<br>\end{cases}<br>$$</p>
-<h4 id="例句1："><a href="#例句1：" class="headerlink" title="例句1："></a>例句1：</h4><p>Gates choose nonfiction titles because they explain how the world works.<br>错误1: 比尔盖茨选择了他们，因为这些非小说的书籍解释了世界是如何运转的。<br>错误原因：重心不对，应更注重逻辑关系，先因后果。<br>错误2: 因为他们解释了世界是如何运转的，所以比尔盖茨选择了这些非小说书籍。<br>错误原因：代词应该置后。</p>
+        <p># 英语翻译 考研翻译 英语2</p>
+<p><span class="math display">\[
+英汉差异\left\{\begin{matrix}
+1.英语多被动，汉语多主动。\\（
+非必要情况下不要翻译为被动，除非类似于“被雨淋了” ）\\ \\
+2.英语多静态，汉语多动态。 \\ \\
+3.英语多长句，汉语多短句。\\ \\
+4.英语前重心，汉语后重心。(汉语先铺垫，英语先结果)
+\end{matrix}\right.
+\]</span></p>
+<h2 id="一.-简单句">一. 简单句</h2>
+<h3 id="方法论核心">方法论核心</h3>
+<p><span class="math display">\[
+方法论核心
+\begin{cases}
+1 .翻译时中文要说全（将英文中省略的部分翻译出来）\\
+2 .英文中小事物可能会代表大范围 \\
+   Dot-com[.com]--代表互联网interne \\
+    Airlines--代表航空业\\
+3 . 重心偏移：中文的重点放在后方\\
+\end{cases}
+\]</span></p>
+<h4 id="例句1">例句1：</h4>
+<p>Gates choose nonfiction titles because they explain how the world
+works. 错误1:
+比尔盖茨选择了他们，因为这些非小说的书籍解释了世界是如何运转的。
+错误原因：重心不对，应更注重逻辑关系，先因后果。 错误2:
+因为他们解释了世界是如何运转的，所以比尔盖茨选择了这些非小说书籍。
+错误原因：代词应该置后。</p>
 <p>翻译：英文这些非小说书籍额解释了世界是如何运转的，所以比尔盖茨选择了他们。</p>
-<h4 id="例句2"><a href="#例句2" class="headerlink" title="例句2:"></a>例句2:</h4><p>Failures stop us only if we let them.<br>翻译：只有当我们放任失败的时候，他才能阻止我们。<br>进阶版：我们只要不畏失败，便可勇往直前。</p>
-<h2 id="二．介词短语"><a href="#二．介词短语" class="headerlink" title="二．介词短语"></a>二．介词短语</h2><p>形式：介词+名词<br>作用：作状语&#x2F;定语修饰句子成分。（一般情况下遵守就近原则）</p>
-<h3 id="方法论核心-1"><a href="#方法论核心-1" class="headerlink" title="方法论核心"></a>方法论核心</h3><ol>
+<h4 id="例句2">例句2:</h4>
+<p>Failures stop us only if we let them.
+翻译：只有当我们放任失败的时候，他才能阻止我们。
+进阶版：我们只要不畏失败，便可勇往直前。</p>
+<h2 id="二介词短语">二．介词短语</h2>
+<p>形式：介词+名词
+作用：作状语/定语修饰句子成分。（一般情况下遵守就近原则） ###
+方法论核心</p>
+<ol type="1">
 <li>作状语：前置到动词前翻译。</li>
 <li>作定语：前置到名词前+”的“</li>
 </ol>
-<h4 id="例句1"><a href="#例句1" class="headerlink" title="例句1:"></a>例句1:</h4><p><em>A fifth grader gets a homework assignment to select his future career path from a list of occupations.</em></p>
-<p>介词短语：<em>from a list of occupations</em> 作状语，前置到select 前翻译。<br>翻译：一个五年级的学生拿到了一份家庭作业：从一份职业清单中选择他未来的职业道路。</p>
-<h5 id="注："><a href="#注：" class="headerlink" title="[注："></a>[注：</h5><p>这里的homework和assiggnment都是家庭作业的意思，不用重复翻译。英语中强调没有特殊强调词，一般用多个意思重复的单词表强]</p>
-<h4 id="例句2："><a href="#例句2：" class="headerlink" title="例句2："></a>例句2：</h4><p><em>The evidence that these creatures preserve the health of game by killing the physically weak, or that they prey only on “worthless” species.</em><br>$$<br>介词短语\begin{cases}<br>of game 作定语前置到health前+“的”\<br>by\ killing\ the\  physically\  weak 作状语，前置到动词“preserve”前翻译<br>\end{cases}<br>$$</p>
-<p><font size=4> 翻译：发展中国家的人们一提起对移民的担忧，他们通常会担心本国最优秀、最聪明的人都去了发达国家的硅谷、医院和大学（这样一个前景）</font></p>
-<h4 id="例句3："><a href="#例句3：" class="headerlink" title="例句3："></a>例句3：</h4><p><em>When people in developing countries worry about migration,they are usually concerned at the prospect of their best and brightest departure to Silicon Valley or to hospitals and universities in the developed world.</em></p>
-<p>$$<br>\begin{cases}<br>in\ developing\ countries 作定语，前置到people前\<br>in \ the \ developed \ world 作定语，前置到Silicon Valley前<br>\end{cases}。<br>$$</p>
-<h2 id="三．不定式短语、形容词短语"><a href="#三．不定式短语、形容词短语" class="headerlink" title="三．不定式短语、形容词短语"></a>三．不定式短语、形容词短语</h2><p><font size=4>形式：名词+to do、名词+形容词</font></p>
+<h4 id="例句1-1">例句1:</h4>
+<p><em>A fifth grader gets a homework assignment to select his future
+career path from a list of occupations.</em></p>
+<p>介词短语：<em>from a list of occupations</em> 作状语，前置到select
+前翻译。
+翻译：一个五年级的学生拿到了一份家庭作业：从一份职业清单中选择他未来的职业道路。</p>
+<h5 id="注">[注：]</h5>
+<h4 id="例句2-1">例句2：</h4>
+<p><em>The evidence that these creatures preserve the health of game by
+killing the physically weak, or that they prey only on “worthless”
+species.</em> <span class="math display">\[
+介词短语\begin{cases}
+of game 作定语前置到health前+“的”\\
+by\ killing\ the\  physically\  weak 作状语，前置到动词“preserve”前翻译
+\end{cases}
+\]</span></p>
+<p><font size=4>
+翻译：发展中国家的人们一提起对移民的担忧，他们通常会担心本国最优秀、最聪明的人都去了发达国家的硅谷、医院和大学（这样一个前景）</font></p>
+<h4 id="例句3">例句3：</h4>
+<p><em>When people in developing countries worry about migration,they
+are usually concerned at the prospect of their best and brightest
+departure to Silicon Valley or to hospitals and universities in the
+developed world.</em></p>
+<p><span class="math display">\[
+\begin{cases}
+in\ developing\ countries 作定语，前置到people前\\
+in \ the \ developed \ world 作定语，前置到Silicon Valley前
+\end{cases}。
+\]</span></p>
+<h2 id="三不定式短语形容词短语">三．不定式短语、形容词短语</h2>
+<p><font size=4>形式：名词+to do、名词+形容词</font></p>
 <p>作用：作定语</p>
-<h2 id="四．并列结构"><a href="#四．并列结构" class="headerlink" title="四．并列结构"></a>四．并列结构</h2><h3 id="方法论核心-2"><a href="#方法论核心-2" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br>方法论核心\begin{cases}<br>1 . 句子成分之间出现:and, but, so, yet, nor, or, not only … but also, \<br>either…or…等。结构相似，成分相同。\<br> \<br>2 .串接的成分比较灵活，可通过连词找到并列位置，通常 为 “词对词，\短语对短语，从句对从句”。\ \<br>3 .根据对应成分进行翻译。<br>\end{cases}<br>$$</p>
-<h4 id="例句1：-1"><a href="#例句1：-1" class="headerlink" title="例句1："></a>例句1：</h4><p><em>My mind seems to be able to cope and the information is stored away neatly.</em>(2013英二)</p>
-<p>并列结构：<em>短句</em>  and  <em>短句</em> 并列<br>翻译：我的大脑似乎能处理并且信息也被整齐的储存。</p>
-<h4 id="例句2-1"><a href="#例句2-1" class="headerlink" title="例句2:"></a>例句2:</h4><p><em>Children will play with dolls equipped with personality chips,computers with in-built personalities will be regarded as workmates rather than tools, relaxation will be in front of smell-television, and digital age will have arrived.</em> (2001英一72)</p>
-<p>并列结构：<em>will play…</em> , <em>will be…</em> ,<em>will he…</em> , <em>will have…</em> 并列</p>
-<h5 id="「注："><a href="#「注：" class="headerlink" title="「注："></a>「注：</h5><ol>
-<li>英语翻译中，<em>with</em>通常翻译为 <strong>带有</strong> 或者<strong>用</strong></li>
-<li><em>relaxation</em> –放松(n.) 英文多静态的体现<br>」</li>
+<h2 id="四并列结构">四．并列结构</h2>
+<h3 id="方法论核心-1">方法论核心</h3>
+<p><span class="math display">\[
+方法论核心\begin{cases}
+1 . 句子成分之间出现:and, but, so, yet, nor, or, not only ... but also,
+\\
+either...or...等。结构相似，成分相同。\\
+\\
+2 .串接的成分比较灵活，可通过连词找到并列位置，通常 为
+“词对词，\\短语对短语，从句对从句”。\\ \\
+3 .根据对应成分进行翻译。
+\end{cases}
+\]</span></p>
+<h4 id="例句1-2">例句1：</h4>
+<p><em>My mind seems to be able to cope and the information is stored
+away neatly.</em>(2013英二)</p>
+<p>并列结构：<em>短句</em> and <em>短句</em> 并列
+翻译：我的大脑似乎能处理并且信息也被整齐的储存。</p>
+<h4 id="例句2-2">例句2:</h4>
+<p><em>Children will play with dolls equipped with personality
+chips,computers with in-built personalities will be regarded as
+workmates rather than tools, relaxation will be in front of
+smell-television, and digital age will have arrived.</em>
+(2001英一72)</p>
+<p>并列结构：<em>will play...</em> , <em>will be...</em> ,<em>will
+he...</em> , <em>will have...</em> 并列</p>
+<h5 id="注-1">「注：</h5>
+<ol type="1">
+<li>英语翻译中，<em>with</em>通常翻译为 <strong>带有</strong>
+或者<strong>用</strong></li>
+<li><em>relaxation</em> --放松(n.) 英文多静态的体现 」</li>
 </ol>
-<p>翻译：<br>孩子们将会与<font color=blue>装有个性芯片的玩具娃娃</font><font color=black>玩耍</font>，<font color=gren>装有人格化芯片的电脑</font><font color=black>将被视为工作伙伴而不是工具</font>， 人们将会<font color=red>在气味电视机前放松</font>，<font color=black>届时</font><font color=yellow>数字化时代就来到了。</font></p>
-<h4 id="例句3"><a href="#例句3" class="headerlink" title="例句3:"></a>例句3:</h4><p><em>Beethoven’s habit of increasing the volume with an extreme intensity and then abruptly following with a sudden soft passage was only rarely used by composers before him.</em><br>并列结构：<em>of increasing the volume with an extreme intensity</em> 和 <em>abruptly following with a sudden soft passage</em><br>翻译：贝多芬习惯用<font color=red>极其强烈的力度来提高乐曲的音量</font>，<font color=yellow> 然后</font><font color=black>又</font><font color=green>出人意料地突然跟上一个轻柔的乐段</font>，<font color=black>他之 前的作曲家极少采用这种作曲方式。</font></p>
-<h2 id="五-非谓语"><a href="#五-非谓语" class="headerlink" title="五. 非谓语"></a>五. 非谓语</h2><h3 id="方法论核心-3"><a href="#方法论核心-3" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br> 方法论核心\begin{cases}<br>1 .名词+doing&#x2F;done&#x2F;to\ do ：一般前置，加“的”字即可。（作定语）\<br>2 .句子+dong&#x2F;done ：按顺序翻译即可，不调整语序。<br>\end{cases}<br>$$<br>例：The boy playing basketball in the school……..<br>A.这个男孩在学校打篮球<br><font color=red>B. 在学校打篮球的男孩</font></p>
-<h4 id="例句1：-2"><a href="#例句1：-2" class="headerlink" title="例句1："></a>例句1：</h4><p><em>The second, by Joshua Greenberg, takes a more empirical approach to universality, identifying traits (particularly in word order) shared by many languages, which are considered to represent biases that result from cognitive constraints.</em>(2012英一49)</p>
-<h5 id="『注：翻译时，share通常翻译为共有或认可」"><a href="#『注：翻译时，share通常翻译为共有或认可」" class="headerlink" title="『注：翻译时，share通常翻译为共有或认可」"></a>『注：翻译时，<em>share</em>通常翻译为<strong>共有</strong>或<strong>认可</strong>」</h5><p>非谓语：</p>
-<ol>
+<p>翻译：
+孩子们将会与<font color=blue>装有个性芯片的玩具娃娃</font><font color=black>玩耍</font>，<font color=gren>装有人格化芯片的电脑</font><font color=black>将被视为工作伙伴而不是工具</font>，
+人们将会<font color=red>在气味电视机前放松</font>，<font color=black>届时</font><font color=yellow>数字化时代就来到了。</font></p>
+<h4 id="例句3-1">例句3:</h4>
+<p><em>Beethoven’s habit of increasing the volume with an extreme
+intensity and then abruptly following with a sudden soft passage was
+only rarely used by composers before him.</em> 并列结构：<em>of
+increasing the volume with an extreme intensity</em> 和 <em>abruptly
+following with a sudden soft passage</em>
+翻译：贝多芬习惯用<font color=red>极其强烈的力度来提高乐曲的音量</font>，<font color=yellow>
+然后</font><font color=black>又</font><font color=green>出人意料地突然跟上一个轻柔的乐段</font>，<font color=black>他之
+前的作曲家极少采用这种作曲方式。</font></p>
+<h2 id="五.-非谓语">五. 非谓语</h2>
+<h3 id="方法论核心-2">方法论核心</h3>
+<p><span class="math display">\[
+方法论核心\begin{cases}
+1 .名词+doing/done/to\ do ：一般前置，加“的”字即可。（作定语）\\
+2 .句子+dong/done ：按顺序翻译即可，不调整语序。
+\end{cases}
+\]</span> 例：The boy playing basketball in the school........
+A.这个男孩在学校打篮球 <font color=red>B. 在学校打篮球的男孩</font></p>
+<h4 id="例句1-3">例句1：</h4>
+<p><em>The second, by Joshua Greenberg, takes a more empirical approach
+to universality, identifying traits (particularly in word order) shared
+by many languages, which are considered to represent biases that result
+from cognitive constraints.</em>(2012英一49)</p>
+<h5
+id="注翻译时share通常翻译为共有或认可">『注：翻译时，<em>share</em>通常翻译为<strong>共有</strong>或<strong>认可</strong>」</h5>
+<p>非谓语：</p>
+<ol type="1">
 <li><em>identifying</em>，位于句子后，按顺序翻译</li>
 <li><em>shared by many language</em>，位于名词后，前置作定语</li>
 </ol>
-<p>翻译：做出又一贡献的是乔舒亚·格林伯格，他运用了更为鲜明的经验主义方法来研究这种普遍性，<font color=red>鉴别出</font><font color=green>多种语言的共同</font>特征(特别是在词序上的特征)，而人们认为这些特征代 表了由认知限制所产生的偏见。</p>
-<h4 id="例句2-2"><a href="#例句2-2" class="headerlink" title="例句2:"></a>例句2:</h4><p><em>Additional social stresses may also occur because of the population explosion or problems arising from mass migration movements—themselves made relatively easy nowadays by modern means of transport.</em><br>(2000英一75)</p>
-<p>非谓语：<em>arising from mass migration movements</em>，位于名词后，前置翻译作定语。<br><font color=red>来自大型移民运动的问题（✅）</font><br><font color=black>问题来自大型移民运动（❌）</font></p>
-<p>翻译：由于人口猛增或大量人口流动(现代化交通工具使 这种流动相对容易)造成的种种问题，也会对社会造 成新的压力。</p>
-<h4 id="例句3-1"><a href="#例句3-1" class="headerlink" title="例句3:"></a>例句3:</h4><p>Such actions to seek knowledge and to understand information</p>
-<p>非谓语：<em>to seek knowledge and to understand information</em>，位于名词后，前置翻译作定语。</p>
-<p>翻译：<font color=red>有些去寻求知识，理解信息的行为。(✅)</font><br><font color=black>有些行为去寻求知识，理解信息。（❌）</font></p>
-<h2 id="六-状语从句"><a href="#六-状语从句" class="headerlink" title="六. 状语从句"></a>六. 状语从句</h2><h3 id="方法论核心-4"><a href="#方法论核心-4" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br>方法论核心\begin{cases}<br>1 .时间地点状语从句：一般翻译到主句前\<br>2 .原因状语从句：从句翻译到主句前，构成“前因后果”的顺序\<br>3 .条件状语：翻译到主句前到最佳位置（if）\<br>4 .让步状语：从句一般翻译到主句前，构成“虽然但是”结构。although\ though,\ even\ though, \ while\ despite\<br>5 .目的状语从句：前用“为了”，后用“以免，来，去，以至于”\<br>6 .结果状语从句：so…that 如此…以至于<br>\end{cases}<br>$$</p>
-<h4 id="例句1-1"><a href="#例句1-1" class="headerlink" title="例句1:"></a>例句1:</h4><p><em>Mental health allows us to view others with sympathy if they are having troubles, with kindness if they are in pain, and with unconditional love no matter who they are.</em><br>并列部分：<em>with…if</em> and <em>with…if</em> and <em>with…no matter</em> 并列<br>从句部分：条件状语从句，前置翻译</p>
-<p>翻译：<font color=red>如果他人处于困境中，</font>心理健康允许我们带着同情心看待他们;<font color=red>如果他人处于痛苦中，</font>心理健康允许我 们带着善意对待他们;<font color=red>无论他们是谁，</font>心理健康允许 我们带着无条件的爱看待他们。</p>
-<h4 id="例句2-3"><a href="#例句2-3" class="headerlink" title="例句2:"></a>例句2:</h4><p><em>While he obviously had an abundance of natural talent, the final, polished work that he gave to the world was the result of years of practicing, re-writing and reading.</em></p>
+<p>翻译：做出又一贡献的是乔舒亚·格林伯格，他运用了更为鲜明的经验主义方法来研究这种普遍性，<font color=red>鉴别出</font><font color=green>多种语言的共同</font>特征(特别是在词序上的特征)，而人们认为这些特征代
+表了由认知限制所产生的偏见。</p>
+<h4 id="例句2-3">例句2:</h4>
+<p><em>Additional social stresses may also occur because of the
+population explosion or problems arising from mass migration
+movements—themselves made relatively easy nowadays by modern means of
+transport.</em> (2000英一75)</p>
+<p>非谓语：<em>arising from mass migration
+movements</em>，位于名词后，前置翻译作定语。
+<font color=red>来自大型移民运动的问题（✅）</font>
+<font color=black>问题来自大型移民运动（❌）</font></p>
+<p>翻译：由于人口猛增或大量人口流动(现代化交通工具使
+这种流动相对容易)造成的种种问题，也会对社会造 成新的压力。</p>
+<h4 id="例句3-2">例句3:</h4>
+<p>Such actions to seek knowledge and to understand information</p>
+<p>非谓语：<em>to seek knowledge and to understand
+information</em>，位于名词后，前置翻译作定语。</p>
+<p>翻译：<font color=red>有些去寻求知识，理解信息的行为。(✅)</font>
+<font color=black>有些行为去寻求知识，理解信息。（❌）</font></p>
+<h2 id="六.-状语从句">六. 状语从句</h2>
+<h3 id="方法论核心-3">方法论核心</h3>
+<p><span class="math display">\[
+方法论核心\begin{cases}
+1 .时间地点状语从句：一般翻译到主句前\\
+2 .原因状语从句：从句翻译到主句前，构成“前因后果”的顺序\\
+3 .条件状语：翻译到主句前到最佳位置（if）\\
+4 .让步状语：从句一般翻译到主句前，构成“虽然但是”结构。although\\
+though,\ even\ though, \ while\ despite\\
+5 .目的状语从句：前用“为了”，后用“以免，来，去，以至于”\\
+6 .结果状语从句：so...that 如此...以至于
+\end{cases}
+\]</span> #### 例句1: <em>Mental health allows us to view others with
+sympathy if they are having troubles, with kindness if they are in pain,
+and with unconditional love no matter who they are.</em>
+并列部分：<em>with...if</em> and <em>with...if</em> and <em>with...no
+matter</em> 并列 从句部分：条件状语从句，前置翻译</p>
+<p>翻译：<font color=red>如果他人处于困境中，</font>心理健康允许我们带着同情心看待他们;<font color=red>如果他人处于痛苦中，</font>心理健康允许我
+们带着善意对待他们;<font color=red>无论他们是谁，</font>心理健康允许
+我们带着无条件的爱看待他们。</p>
+<h4 id="例句2-4">例句2:</h4>
+<p><em>While he obviously had an abundance of natural talent, the final,
+polished work that he gave to the world was the result of years of
+practicing, re-writing and reading.</em></p>
 <p>从句部分：让步状语从句，翻译到主句前。</p>
-<p>翻译：尽管他天资聪颖，但是他为世人带来的最终精雕细 琢的作品是他多年练习，重写以及阅读的结果。</p>
-<h2 id="七-定语从句"><a href="#七-定语从句" class="headerlink" title="七. 定语从句"></a>七. 定语从句</h2><p><strong>名词+关系词+句子</strong></p>
-<h3 id="方法论核心-5"><a href="#方法论核心-5" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br>方法论核心 \begin{cases}<br>1 . 前置：将从句放到先行词名词前面，加“的”字翻译\<br>2 . 后置：i. 非限定性从句\ ii. 先行词名词过长，后置翻译\（后置翻译时，重复先行词）<br>\end{cases}<br>$$</p>
-<h4 id="例句1-2"><a href="#例句1-2" class="headerlink" title="例句1:"></a>例句1:</h4><p><em>So I decided to look for some fashion related courses that included writing.</em> (2017英二)</p>
+<p>翻译：尽管他天资聪颖，但是他为世人带来的最终精雕细
+琢的作品是他多年练习，重写以及阅读的结果。</p>
+<h2 id="七.-定语从句">七. 定语从句</h2>
+<p><strong>名词+关系词+句子</strong> ### 方法论核心 <span
+class="math display">\[
+方法论核心 \begin{cases}
+1 . 前置：将从句放到先行词名词前面，加“的”字翻译\\
+2 . 后置：i. 非限定性从句\ ii.
+先行词名词过长，后置翻译\\（后置翻译时，重复先行词）
+\end{cases}
+\]</span> #### 例句1: <em>So I decided to look for some fashion related
+courses that included writing.</em> (2017英二)</p>
 <p>从句部分：限定性先行词：<em>course</em>。</p>
 <p>翻译：因此，我决定去寻找一些包含写作的与时尚相关的课程。</p>
-<h4 id="例句2-4"><a href="#例句2-4" class="headerlink" title="例句2:"></a>例句2:</h4><p><em>Failure can also teach us things about ourselves that we would never have learned otherwise.</em>(2020英二)</p>
-<p>从句部分：<em>that we would never have learned otherwise</em> 限定性定语从句，但是定语过长，后置翻译，<strong>重复先行词</strong></p>
+<h4 id="例句2-5">例句2:</h4>
+<p><em>Failure can also teach us things about ourselves that we would
+never have learned otherwise.</em>(2020英二)</p>
+<p>从句部分：<em>that we would never have learned otherwise</em>
+限定性定语从句，但是定语过长，后置翻译，<strong>重复先行词</strong></p>
 <p>翻译：失败可以教会我们关于我们自己的事情，这些事情在其他地方学不到。</p>
-<h4 id="例句3-2"><a href="#例句3-2" class="headerlink" title="例句3:"></a>例句3:</h4><p><em>It tends to ignore, and thus eventually to eliminate, many elements in the land community that lack commercial value, but that are essential to its healthy functioning.</em></p>
-<p>并列部分：<em>that lack commercial value</em> 和* that are essential*</p>
-<p>从句部分：<em>that lack commercial value, but that are essential to its healthy functioning.</em> 后置且重复先行词。</p>
-<h5 id="注「有but，前后要加“虽然但是”」"><a href="#注「有but，前后要加“虽然但是”」" class="headerlink" title="注「有but，前后要加“虽然但是”」"></a>注「有<em>but</em>，前后要加“虽然但是”」</h5><p>翻译：这种保护体系往往会忽视，并因此最终消除陆生群落中的诸多物种；虽然这些物种缺乏商业价值，但却对其健康运作至关重要。</p>
-<h4 id="例句4"><a href="#例句4" class="headerlink" title="例句4:"></a>例句4:</h4><p><em>These are the kind of workers that countries like Britain, Canada and Australia try to attract by using immigration rules that privilege college graduates.</em> (2012英二)</p>
-<p>从句部分：1.<em>that countries like Britain, Canada and Australiatry to attract by using immigration rules</em> 限定性定语从句，修饰前面的名词“<em>worker</em>”，前置翻译。</p>
-<p>​					2.<em>that privilege college graduates</em>限定性定语从句，修饰前面的移民政策，前置翻译。</p>
+<h4 id="例句3-3">例句3:</h4>
+<p><em>It tends to ignore, and thus eventually to eliminate, many
+elements in the land community that lack commercial value, but that are
+essential to its healthy functioning.</em></p>
+<p>并列部分：<em>that lack commercial value</em> 和* that are
+essential*</p>
+<p>从句部分：<em>that lack commercial value, but that are essential to
+its healthy functioning.</em> 后置且重复先行词。</p>
+<h5
+id="注有but前后要加虽然但是">注「有<em>but</em>，前后要加“虽然但是”」</h5>
+<p>翻译：这种保护体系往往会忽视，并因此最终消除陆生群落中的诸多物种；虽然这些物种缺乏商业价值，但却对其健康运作至关重要。</p>
+<h4 id="例句4">例句4:</h4>
+<p><em>These are the kind of workers that countries like Britain, Canada
+and Australia try to attract by using immigration rules that privilege
+college graduates.</em> (2012英二)</p>
+<p>从句部分：1.<em>that countries like Britain, Canada and Australiatry
+to attract by using immigration rules</em>
+限定性定语从句，修饰前面的名词“<em>worker</em>”，前置翻译。</p>
+<p>​ 2.<em>that privilege college
+graduates</em>限定性定语从句，修饰前面的移民政策，前置翻译。</p>
 <p>翻译：这些人是一类像<font color=red>英国、加拿大和澳大利亚等国试图通过使用</font><font color=green>给大学毕业生特权的</font>移民政策吸引的工人</p>
-<h2 id="八-名词性从句"><a href="#八-名词性从句" class="headerlink" title="八. 名词性从句"></a>八. 名词性从句</h2><h3 id="方法论核心-6"><a href="#方法论核心-6" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br>\begin{cases}</p>
-<ol>
-<li>主语从句：一般由what,whatever,whether,where,how等词引导句子，按照语序处理翻译即可\<br>E.g. What\ my \ father\  said\  was \ right. 翻译:我父亲说的对。\\</li>
-<li>It引导的主语从句：翻译时一般省略it\<br>e.g. It\  makes\  no\  difference\  whether\  he\  takes\  part\  in\  this \ meeting. \翻译:他是否参加会议，没什么关系。\\</li>
-<li>宾语从句:一般以that, what, how, when, why 引导，按照语序 处理即可。\<br>e.g. He \ doesn’t\ know\ how\ to\ say\ it\ in\ English. 翻译:他不知道如何用英语解释。\\</li>
-<li>表语从句：系动词引出主语，按照语序翻译即可。\<br>e.g. It\ is\ not\ why\ this\ problem\ exists,\ but\ what\ should\ be\ done\ to\ solve\ it.\ 翻译:不在于这个问题为什么出现，而在于怎样做来解决这个问题。<br>\end{cases}<br>$$</li>
-</ol>
-<h5 id="注「"><a href="#注「" class="headerlink" title="注「"></a>注「</h5><p>$$<br>\begin{cases}<br>1.\ (n.)+that是定语从句\<br>2.\ (v.)+that是名词性从句\ 此处的(v.)可以是doing，to\ do,done,do<br>\end{cases}<br>$$</p>
+<h2 id="八.-名词性从句">八. 名词性从句</h2>
+<h3 id="方法论核心-4">方法论核心</h3>
+<p><span class="math display">\[
+\begin{cases}
+1.
+主语从句：一般由what,whatever,whether,where,how等词引导句子，按照语序处理翻译即可\\
+E.g. What\ my \ father\  said\  was \ right. 翻译:我父亲说的对。\\\\
+2. It引导的主语从句：翻译时一般省略it\\
+e.g.
+It\  makes\  no\  difference\  whether\  he\  takes\  part\  in\  this \
+meeting. \\翻译:他是否参加会议，没什么关系。\\\\
+3. 宾语从句:一般以that, what, how, when, why 引导，按照语序 处理即可。\\
+e.g. He \ doesn’t\ know\ how\ to\ say\ it\ in\ English.
+翻译:他不知道如何用英语解释。\\\\
+4. 表语从句：系动词引出主语，按照语序翻译即可。\\
+e.g. It\ is\ not\ why\ this\ problem\ exists,\ but\ what\ should\ be\
+done\ to\ solve\ it.\\
+翻译:不在于这个问题为什么出现，而在于怎样做来解决这个问题。
+\end{cases}
+\]</span></p>
+<h5 id="注-2">注「</h5>
+<p><span class="math display">\[
+\begin{cases}
+1.\ (n.)+that是定语从句\\
+2.\ (v.)+that是名词性从句\ 此处的(v.)可以是doing，to\ do,done,do
+\end{cases}
+\]</span></p>
 <p>」</p>
-<h4 id="例句："><a href="#例句：" class="headerlink" title="例句："></a>例句：</h4><p><em>It’s almost impossible to go through life without experiencing some kind of failure.</em>(2020英二)</p>
+<h4 id="例句">例句：</h4>
+<p><em>It’s almost impossible to go through life without experiencing
+some kind of failure.</em>(2020英二)</p>
 <p>翻译：生活中不经历某种失败是不可能的。</p>
-<h2 id="九-同位语从句"><a href="#九-同位语从句" class="headerlink" title="九. 同位语从句"></a>九. 同位语从句</h2><p>名词+先行词（主要为that）+句子组成</p>
-<h3 id="方法论核心-7"><a href="#方法论核心-7" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br>\begin{cases}<br>1.前置：先行词that后面的句子短，前置加“的”\<br>2.后置：先行词that后面的句子长，后置加“即”\<br>与定语从句的主要区分标志:\<br>前面名词，同位语从句前面的名词一般和“思想、理论、假设” 有关。<br>\end{cases}<br>$$</p>
-<p>$$<br>\begin{cases}<br>常见同位语标志\<br>The\ answer\ that\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ belief\ that\<br>The\ conclusion\  that\ \ \ \ \ \ \ \ \ \ \ \  The\ decision\ that\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ doubt\ that\<br>The\ explanation\ that\ \ \ \ \ \ \ \ \ \ The rumor that\  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ message\ that\  The\ report\ that\ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ news\ that\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ law\ that\<br>The\ idea\ that\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ theory\ that\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ opinion\ that\<br>\end{cases}<br>$$</p>
-<h4 id="例句：-1"><a href="#例句：-1" class="headerlink" title="例句："></a>例句：</h4><p><em>Allen’s contribution was to take an assumption we all share—that because we are not robots we therefore control our thoughts—and reveal its erroneous nature.</em></p>
-<p>翻译：爱伦的贡献是他抓住了我们所有人都认同的一个假设，即因为我们不是机器人，所以我们能控制自己 的思想——并揭示了它错误的本质。</p>
-<h2 id="十-被动语态"><a href="#十-被动语态" class="headerlink" title="十.被动语态"></a>十.被动语态</h2><h3 id="方法论核心-8"><a href="#方法论核心-8" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br>\begin{cases}<br>1.主语不变，省略“被”字。	\<br>例: The building was built. \\<br>2.主宾颠倒，用by，等介词后面的动作执行者充当主语\ 例: That reference book was rarely used by students.\\<br>3.增加“我们，有人，人们”等泛指主语，或者增加“这 ”等词充当主语。\<br>例: She was seen to enter the building at eight o’clock.<br>\end{cases}<br>$$</p>
-<h4 id="例句1-3"><a href="#例句1-3" class="headerlink" title="例句1:"></a>例句1:</h4><p><em>A Google search can leak between 0.2 and 7.0 grams of CO2, depending on how many attempts are needed to get the “right” answer.</em></p>
-<p>翻译：每用谷歌搜索一次就会释放出0.2克至7.0克的二氧 化碳，具体的数值取决于使用者需要搜索多少次才 能得到“正确”答案。</p>
-<h4 id="例句2：-1"><a href="#例句2：-1" class="headerlink" title="例句2："></a>例句2：</h4><p><em>Attempts have been made to curb this tendency, for example, by trying to incorporate some measure of quality as well as quantity into the assessment of an applicant’s papers.</em></p>
-<p>翻译：人们已经做出努力来遏制这种趋势，例如，将质量 和数量标准纳入申请者的论文评估中。</p>
-<h4 id="例句3-3"><a href="#例句3-3" class="headerlink" title="例句3:"></a>例句3:</h4><p><em>In Europe, <font color=red>where forestry is ecologically more advanced</font>, <font color=green>the noncommercial tree species are recognized </font>as members of the native forest community.</em></p>
+<h2 id="九.-同位语从句">九. 同位语从句</h2>
+<p>名词+先行词（主要为that）+句子组成</p>
+<h3 id="方法论核心-5">方法论核心</h3>
+<p><span class="math display">\[
+\begin{cases}
+1.前置：先行词that后面的句子短，前置加“的”\\
+2.后置：先行词that后面的句子长，后置加“即”\\
+与定语从句的主要区分标志:\\
+前面名词，同位语从句前面的名词一般和“思想、理论、假设” 有关。
+\end{cases}
+\]</span></p>
+<p><span class="math display">\[
+\begin{cases}
+常见同位语标志\\
+The\ answer\ that\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ belief\ that\\
+The\ conclusion\  that\ \ \ \ \ \ \ \ \ \ \ \  The\ decision\ that\ \ \
+\ \ \ \ \ \ \ \ \ \ \ \ The\ doubt\ that\\
+The\ explanation\ that\ \ \ \ \ \ \ \ \ \ The rumor that\  \ \ \ \ \ \ \
+\ \ \ \ \ \ \ \ \ \ \ \ The\ message\ that\\  The\ report\ that\ \ \ \
+\  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ news\ that\ \ \ \ \ \ \ \ \ \ \ \
+\ \ \ \ \ \ \ \ \ The\ law\ that\\
+The\ idea\ that\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\
+theory\ that\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ opinion\ that\\
+\end{cases}
+\]</span></p>
+<h4 id="例句-1">例句：</h4>
+<p><em>Allen’s contribution was to take an assumption we all share—that
+because we are not robots we therefore control our thoughts—and reveal
+its erroneous nature.</em></p>
+<p>翻译：爱伦的贡献是他抓住了我们所有人都认同的一个假设，即因为我们不是机器人，所以我们能控制自己
+的思想——并揭示了它错误的本质。</p>
+<h2 id="十.被动语态">十.被动语态</h2>
+<h3 id="方法论核心-6">方法论核心</h3>
+<p><span class="math display">\[
+\begin{cases}
+1.主语不变，省略“被”字。  \\
+例: The building was built. \\\\
+2.主宾颠倒，用by，等介词后面的动作执行者充当主语\\ 例: That reference
+book was rarely used by students.\\\\
+3.增加“我们，有人，人们”等泛指主语，或者增加“这 ”等词充当主语。\\
+例: She was seen to enter the building at eight o’clock.
+\end{cases}
+\]</span></p>
+<h4 id="例句1-4">例句1:</h4>
+<p><em>A Google search can leak between 0.2 and 7.0 grams of CO2,
+depending on how many attempts are needed to get the “right”
+answer.</em></p>
+<p>翻译：每用谷歌搜索一次就会释放出0.2克至7.0克的二氧
+化碳，具体的数值取决于使用者需要搜索多少次才 能得到“正确”答案。</p>
+<h4 id="例句2-6">例句2：</h4>
+<p><em>Attempts have been made to curb this tendency, for example, by
+trying to incorporate some measure of quality as well as quantity into
+the assessment of an applicant’s papers.</em></p>
+<p>翻译：人们已经做出努力来遏制这种趋势，例如，将质量
+和数量标准纳入申请者的论文评估中。</p>
+<h4 id="例句3-4">例句3:</h4>
+<p><em>In Europe, <font color=red>where forestry is ecologically more
+advanced</font>, <font color=green>the noncommercial tree species are
+recognized </font>as members of the native forest community.</em></p>
 <p>翻译：在林业生态更为发达的欧洲，人们将没有商业价值的树种看成是当地森林群落的成员。</p>
-<h2 id="十一-比较结构"><a href="#十一-比较结构" class="headerlink" title="十一.比较结构"></a>十一.比较结构</h2><h3 id="方法论核心-9"><a href="#方法论核心-9" class="headerlink" title="方法论核心"></a>方法论核心</h3><p>$$<br>\begin{cases}<br>1.more\ A + than\ B\<br>与其说B 不如说A\<br>He\ is\ more\ a\ friend\ than\ a\ teacher.\\<br>2.more\ than + 形容词\<br>十分，非常\<br>She\ was\ more\ than\ kind\ to\ us.\\<br>3.more\ than+ 名词&#x2F;动词\<br>不仅仅\<br>He\ is\ more\ than\ our\ teacher,\ he\ is\ our\ friend\\<br>4.more\ than + 数字\<br>多于…\<br>The\ figure\ is\ more\ than\ 25\<br>\5.rather than\<br>而不是…\<br>She\ enjoys\ singing\ rather\ than\ dancing.\<br>\end{cases}<br>$$</p>
-<h2 id="十二-插入结构"><a href="#十二-插入结构" class="headerlink" title="十二.插入结构"></a>十二.插入结构</h2><p>标志：有标点符号</p>
+<h2 id="十一.比较结构">十一.比较结构</h2>
+<h3 id="方法论核心-7">方法论核心</h3>
+<p><span class="math display">\[
+\begin{cases}
+1.more\ A + than\ B\\
+与其说B 不如说A\\
+He\ is\ more\ a\ friend\ than\ a\ teacher.\\\\
+2.more\ than + 形容词\\
+十分，非常\\
+She\ was\ more\ than\ kind\ to\ us.\\\\
+3.more\ than+ 名词/动词\\
+不仅仅\\
+He\ is\ more\ than\ our\ teacher,\ he\ is\ our\ friend\\\\
+4.more\ than + 数字\\
+多于...\\
+The\ figure\ is\ more\ than\ 25\\
+\\5.rather than\\
+而不是...\\
+She\ enjoys\ singing\ rather\ than\ dancing.\\
+\end{cases}
+\]</span></p>
+<h2 id="十二.插入结构">十二.插入结构</h2>
+<p>标志：有标点符号</p>
 <p>出现插入结构，一般前置。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="hhttps://7-blockhouse.github.io/2022/07/31/英语翻译-1/" data-id="cl6a382na0001irxzg3mfgclm" data-title="英语翻译" class="article-share-link">分享</a>
+      <a data-url="hhttps://7-blockhouse.github.io/2022/07/31/英语翻译-1/" data-id="cl6d2esvn000140xz4row5w4e" data-title="英语翻译" class="article-share-link">分享</a>
       
       
       
@@ -230,12 +583,12 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>试用，我的第一篇文章<br>作者 杨家祺<br>通讯地址：<a href="mailto:&#119;&#x65;&#x69;&#x6d;&#x69;&#x6e;&#x67;&#95;&#81;&#x40;&#x66;&#111;&#120;&#109;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;">&#119;&#x65;&#x69;&#x6d;&#x69;&#x6e;&#x67;&#95;&#81;&#x40;&#x66;&#111;&#120;&#109;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
+        <p>试用，我的第一篇文章 作者 杨家祺 通讯地址：weiming_Q@foxmail.com</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="hhttps://7-blockhouse.github.io/2022/07/30/我的第一篇文章/" data-id="cl6a382n50000irxzhombdl4q" data-title="我的第一篇文章" class="article-share-link">分享</a>
+      <a data-url="hhttps://7-blockhouse.github.io/2022/07/30/我的第一篇文章/" data-id="cl6d2esvg000040xzdf39cqwt" data-title="我的第一篇文章" class="article-share-link">分享</a>
       
       
       
@@ -265,7 +618,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">七月 2022</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">八月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">七月 2022</a></li></ul>
     </div>
   </div>
 
@@ -276,6 +629,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2022/08/11/%E9%AB%98%E6%95%B0/">(no title)</a>
+          </li>
         
           <li>
             <a href="/2022/07/31/%E8%8B%B1%E8%AF%AD%E7%BF%BB%E8%AF%91-1/">英语翻译</a>
